@@ -1,0 +1,33 @@
+# Alacritty Configuration File
+
+# Font configuration
+font:
+  normal:
+    family: Hack    # Set font family to Hack
+    style: Regular  # Optional: Use 'Bold', 'Italic', etc. for specific styles
+  size: 12          # Font size (adjust as needed)
+
+# Colors: Set background and foreground
+colors:
+  primary:
+    background: '0x000000' # Black background
+    foreground: '0xFFFFFF' # White text
+
+# Cursor style
+cursor:
+  style: Block
+  unfocused_hollow: true
+
+# Scrollback buffer
+scrolling:
+  history: 10000  # Number of lines to keep in scrollback buffer
+
+# Window padding (optional)
+window:
+  padding:
+    x: 10
+    y: 10
+
+# Enable GPU acceleration
+draw_bold_text_with_bright_colors: true
+
