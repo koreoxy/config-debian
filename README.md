@@ -42,6 +42,13 @@ sudo apt install xorg-xinit
 sudo apt install build-essential libx11-dev libxinerama-dev libxft-dev
 ```
 
+### Add script in .bashrc
+```vim
+if [ -z "${DISPLAY}"] && [ "${XDG_VTNR}" -eq 1 ]; then
+    exec startx
+fi
+```
+
 ## Install Dwm Window Manager
 
 ```vim
