@@ -1,4 +1,7 @@
 # My Debian Config file and installation
+![bg](https://github.com/user-attachments/assets/ead1c3e0-dda6-49f2-9347-9ace4c5b66fb)
+
+
 
 ## Install Sudo and Add User
 
