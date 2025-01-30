@@ -52,7 +52,7 @@ fi
 ## Install Dwm Window Manager
 
 ```vim
-git clone https://git.suckless.org/dwm
+https://github.com/koreoxy/config-debian
 ```
 
 </br>
